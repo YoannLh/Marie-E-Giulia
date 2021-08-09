@@ -11,6 +11,10 @@ body {
 	color: rgba(0,0,0,0.65);
 }
 
+p {
+	margin: 8px 0;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -70,7 +74,7 @@ footer h2 {
 }
 
 footer ul {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	padding: 0;
 	justify-content: space-between;
@@ -78,7 +82,7 @@ footer ul {
 
 footer ul li {
 	list-style: none;
-	color: black;
+	color: black !important;
 
 }
 
