@@ -5,6 +5,11 @@ body {
 	background: rgba(219, 207, 207, 0.986);
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .flex {
 	display: flex;
 }
