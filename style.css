@@ -27,6 +27,26 @@ a {
 header {
 	width: 100%;
 	height: 325px;
+	flex-direction: column;
+}
+
+.banderole {
+	width: 100%;
+}
+.greenBanderole {
+	width: 33.3%;
+	height: 5px;
+	background: green;
+}
+.whiteBanderole {
+	width: 33.3%;
+	height: 5px;
+	background: white;
+}
+.redBanderole {
+	width: 33.3%;
+	height: 5px;
+	background: red;
 }
 
 header #logo {
