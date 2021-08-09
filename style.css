@@ -27,12 +27,19 @@ header #logo img {
 }
 
 section {
-	margin: 0 7%;
+	margin: 0 9%;
 	flex-direction: column;
 }
 
 section h2 {
-	margin: auto;
+	margin: 20px auto;
+}
+
+section div {
+	/* Le flex est déclaré ici pour éviter de surcharger inutilement le html */
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
 }
 
 footer {
