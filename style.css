@@ -82,20 +82,18 @@ footer ul {
 
 footer ul li {
 	list-style: none;
-	color: black !important;
-
 }
 
 .green {
-	color: green;
+	color: green !important;
 }
 
 .white {
-	color: white;
+	color: white !important;
 }
 
 .red {
-	color: red;
+	color: red !important;
 }
 
 
