@@ -59,6 +59,13 @@ header #logo img {
 	height: 300px;
 }
 
+header p {
+	position: relative;
+	margin: auto;
+	bottom: 37px;
+	font-size: 1em;
+}
+
 section {
 	margin: 0 9%;
 	flex-direction: column;
@@ -67,6 +74,14 @@ section {
 @media screen and (min-width: 1024px) {
 	section {
 		margin: 0 19%;
+
+	}		
+}
+
+@media screen and (min-width: 1400px) {
+	section {
+		margin: 0 auto;
+		max-width: 800px;
 	}		
 }
 
@@ -106,6 +121,18 @@ footer ul {
 	margin: auto;
 	padding: 0;
 	justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+	footer ul {
+		width: 55%;
+	}		
+}
+
+@media screen and (min-width: 1024px) {
+	footer ul {
+		width: 45%;
+	}		
 }
 
 footer ul li {
