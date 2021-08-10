@@ -135,6 +135,12 @@ footer ul {
 	}		
 }
 
+@media screen and (min-width: 1400px) {
+	footer ul {
+		width: 27%;
+	}		
+}
+
 footer ul li {
 	list-style: none;
 }
