@@ -117,8 +117,9 @@ footer h1 {
 }
 
 footer ul {
+	position: relative;
 	width: 75%;
-	margin: auto;
+	margin: 30px auto;
 	padding: 0;
 	justify-content: space-between;
 }
@@ -126,6 +127,7 @@ footer ul {
 @media screen and (min-width: 768px) {
 	footer ul {
 		width: 55%;
+		margin: auto;
 	}		
 }
 
@@ -145,6 +147,13 @@ footer ul li {
 	list-style: none;
 }
 
+#visibleTelephoneOrNot {
+	position: absolute;
+	bottom: -5px;
+	display: none;
+	margin-right: 80%;
+}
+
 .green {
 	color: green !important;
 }
@@ -155,6 +164,19 @@ footer ul li {
 
 .red {
 	color: red !important;
+}
+
+footer p {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	footer p {
+		width: 100%;
+		margin: 0 auto 10px auto;
+	}		
 }
 
 
