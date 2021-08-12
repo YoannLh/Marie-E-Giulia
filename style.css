@@ -8,7 +8,6 @@ body {
 * {
 	font-family: "Italianno";
 	font-size: 1.15em;
-	/*color: rgba(0,0,0,0.65);*/
 }
 
 p {
@@ -97,10 +96,6 @@ section div {
 	width: 100%;
 	justify-content: space-between;
 }
-
-/*section div p:nth-child(0n+1) {
-	font-weight: bold;
-}*/
 
 footer {
 	width: 100%;
